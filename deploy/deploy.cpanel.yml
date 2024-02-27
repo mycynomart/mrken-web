@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/cynomart/repositories/mrken-web
-    - rsync -avz --delete images/ $DEPLOYPATH
